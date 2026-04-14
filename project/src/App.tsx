@@ -11,6 +11,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import FitnessChatBot from './components/FitnessChatBot';
 import AITrainer from './components/AITrainer'; // Add this import
+import Professionals from './components/Professionals';
 
 function App() {
   const [currentSection, setCurrentSection] = useState('hero');
@@ -50,6 +51,7 @@ function App() {
       {currentSection === 'dashboard' && <Dashboard />}
       {currentSection === 'chatbot' && <FitnessChatBot />}
       {currentSection === 'trainer' && <AITrainer showSection={showSection} />} {/* Add this line */}
+      {currentSection === 'professionals' && <Professionals />}
       {/* Shopping redirect is handled in useEffect above */}
       {currentSection === 'about' && <About />}
       {currentSection === 'contact' && <Contact />}

@@ -16,6 +16,7 @@ const Navigation = ({ currentSection, showSection, mobileMenuOpen, setMobileMenu
     { id: 'workouts', label: 'Workouts' },
     { id: 'dashboard', label: 'Dashboard' },
     { id: 'chatbot', label: 'AI Coach' }, // Added AI Coach
+    { id: 'professionals', label: 'Experts' },
     { id: 'about', label: 'About' },
     { id: 'contact', label: 'Contact' },
   ];
